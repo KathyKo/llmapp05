@@ -54,7 +54,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: darryl1975/llm-frontend-python
+          images: kc921/llm-frontend-python
           tags: |
             type=sha
             type=ref,event=branch
